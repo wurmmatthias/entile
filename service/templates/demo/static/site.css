@@ -213,3 +213,32 @@ th, td.value {
   from {opacity: 0; transform: translateY(-10px);}
   to {opacity: 1; transform: translateY(0);}
 }
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea {
+  width: 95%;
+  padding: 0.75em 1em;
+  border: 1px solid #d1fae5; /* light green border */
+  border-radius: 8px;
+  background-color: #f0fdf4; /* very light green background */
+  color: #065f46; /* dark green text */
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  font-family: 'Inter', sans-serif;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #10b981; /* emerald green border on focus */
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.25); /* soft green glow */
+  outline: none;
+  background-color: #ecfdf5;
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
