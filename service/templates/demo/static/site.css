@@ -71,6 +71,7 @@ body {
 /* CONTENT AREA */
 #content {
     padding: 3em;
+    padding-top: 0;
 }
 
 #content h1, #content h2, #content h3 {
@@ -119,8 +120,12 @@ pre, .code {
     width: 100%;
     height: 600px;
     border: 1px solid #d1d5db;
-    border-radius: 8px;
+    border-radius: 15px;
     background-color: #f9fafb;
+}
+
+canvas {
+    border-radius: 15px !important;
 }
 
 /* BUTTONS */
@@ -150,9 +155,9 @@ th, td.value {
 .capabilities {
     padding: 2em;
     background-color: #ffffff;
-    border: 1px solid #e5e7eb;
+    /*border: 1px solid #e5e7eb;*/
     border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    /*box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);*/
 }
 
 .capabilities span {
